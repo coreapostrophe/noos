@@ -1,7 +1,10 @@
 {
   "name": "@noos/workspace",
   "private": "true",
-  "scripts": {},
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "lerna run dev --scope=@noos/tauri"
+  },
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
   "devDependencies": {

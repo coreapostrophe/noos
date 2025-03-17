@@ -1,0 +1,212 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "1841662996297644301"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16621267945800519068"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13529847696093206596"
+      },
+      {
+        "file": "package.json",
+        "hash": "14865198730191300832"
+      }
+    ],
+    "projectFileMap": {
+      "@noos/tauri": [
+        {
+          "file": "packages/noos-tauri/.gitignore",
+          "hash": "987422939859577920"
+        },
+        {
+          "file": "packages/noos-tauri/.vscode/extensions.json",
+          "hash": "9920001460559902099"
+        },
+        {
+          "file": "packages/noos-tauri/README.md",
+          "hash": "16539139371914066124"
+        },
+        {
+          "file": "packages/noos-tauri/index.html",
+          "hash": "14235883784253937205"
+        },
+        {
+          "file": "packages/noos-tauri/package-lock.json",
+          "hash": "15826187098308850610"
+        },
+        {
+          "file": "packages/noos-tauri/package.json",
+          "hash": "2539672646935715835",
+          "deps": [
+            "npm:typescript",
+            "@noos/views"
+          ]
+        },
+        {
+          "file": "packages/noos-tauri/public/tauri.svg",
+          "hash": "5227378598195823978"
+        },
+        {
+          "file": "packages/noos-tauri/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/.gitignore",
+          "hash": "4015051150815717868"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/Cargo.toml",
+          "hash": "8814399004574894350"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/build.rs",
+          "hash": "12819893473398660400"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/capabilities/default.json",
+          "hash": "7575639485498863625"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/128x128.png",
+          "hash": "13604589034379337034"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/128x128@2x.png",
+          "hash": "2191839293507375542"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/32x32.png",
+          "hash": "17325101664887874961"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square107x107Logo.png",
+          "hash": "6997093065349313629"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square142x142Logo.png",
+          "hash": "10328653739424472191"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square150x150Logo.png",
+          "hash": "15215086490318304801"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square284x284Logo.png",
+          "hash": "16903170323022691040"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square30x30Logo.png",
+          "hash": "12971940366329818341"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square310x310Logo.png",
+          "hash": "9894347521935468769"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square44x44Logo.png",
+          "hash": "10451653797491856714"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square71x71Logo.png",
+          "hash": "7571473553781335479"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/Square89x89Logo.png",
+          "hash": "17945601126376091102"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/StoreLogo.png",
+          "hash": "3102759460364416473"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/icon.icns",
+          "hash": "15588948949917020940"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/icon.ico",
+          "hash": "505459834809877271"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/icons/icon.png",
+          "hash": "8839334400673495504"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/src/lib.rs",
+          "hash": "14000951541012286676"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/src/main.rs",
+          "hash": "9293027862749388163"
+        },
+        {
+          "file": "packages/noos-tauri/src-tauri/tauri.conf.json",
+          "hash": "11544338575660098449"
+        },
+        {
+          "file": "packages/noos-tauri/src/App.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/noos-tauri/src/App.tsx",
+          "hash": "15805193375649525044"
+        },
+        {
+          "file": "packages/noos-tauri/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "packages/noos-tauri/src/main.tsx",
+          "hash": "6356742202340055389"
+        },
+        {
+          "file": "packages/noos-tauri/src/vite-env.d.ts",
+          "hash": "7856441258253745083"
+        },
+        {
+          "file": "packages/noos-tauri/tsconfig.json",
+          "hash": "14667919990655219495"
+        },
+        {
+          "file": "packages/noos-tauri/tsconfig.node.json",
+          "hash": "6447909583214678802"
+        },
+        {
+          "file": "packages/noos-tauri/vite.config.ts",
+          "hash": "4582961665038193720"
+        }
+      ],
+      "@noos/views": [
+        {
+          "file": "packages/noos-views/.gitignore",
+          "hash": "8587836968507943632"
+        },
+        {
+          "file": "packages/noos-views/package-lock.json",
+          "hash": "7074055962710008856"
+        },
+        {
+          "file": "packages/noos-views/package.json",
+          "hash": "14946444436960310707"
+        },
+        {
+          "file": "packages/noos-views/src/index.tsx",
+          "hash": "12376569874045996216"
+        }
+      ]
+    }
+  }
+}

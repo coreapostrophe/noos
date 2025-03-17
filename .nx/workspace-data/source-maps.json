@@ -1,0 +1,246 @@
+{
+  "packages/noos-tauri": {
+    "root": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.executor": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.options": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.metadata": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.options.script": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.metadata.scriptContent": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.tauri.metadata.runCommand": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/noos-views": {
+    "root": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}
