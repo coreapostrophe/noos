@@ -7,6 +7,9 @@
   },
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^8.2.1",
     "prettier": "^3.5.3"

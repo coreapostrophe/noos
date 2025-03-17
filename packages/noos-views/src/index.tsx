@@ -1,3 +1,7 @@
-export const Noos = () => {
-  return <div>Noos works!</div>;
+import { RoutedNoos } from './routes';
+
+const Noos = () => {
+  return <RoutedNoos />;
 };
+
+export default Noos;

@@ -5,6 +5,10 @@
   "main": "src/index.tsx",
   "module": "src/index.tsx",
   "license": "ISC",
+  "dependencies": {
+    "jotai": "^2.12.2",
+    "react-router": "^7.3.0"
+  },
   "peerDependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
