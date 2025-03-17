@@ -1,0 +1,13 @@
+{
+  "name": "@noos/workspace",
+  "private": "true",
+  "scripts": {},
+  "author": "Daveren John Cordero <daverencordero@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^8.2.1"
+  },
+  "volta": {
+    "node": "22.14.0"
+  }
+}
