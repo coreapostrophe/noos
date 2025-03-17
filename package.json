@@ -8,7 +8,8 @@
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^8.2.1"
+    "lerna": "^8.2.1",
+    "prettier": "^3.5.3"
   },
   "volta": {
     "node": "22.14.0"

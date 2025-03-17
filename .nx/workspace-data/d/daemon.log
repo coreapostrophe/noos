@@ -253,3 +253,41 @@
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:16:27.871Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:16:27.871Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:16:27.909Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.207Z - Started listening on: \\.\pipe\nx\C:\Users\daver\AppData\Local\Temp\4da89aa4e56414457a2f\d.sock
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.211Z - [WATCHER]: Subscribed to changes within: D:\Projects\noos (native)
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.220Z - Established a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.221Z - Closed a connection. Number of open connections: 0
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.222Z - Established a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.224Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.251Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.251Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.251Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.309Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.310Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.311Z - Time taken for 'total for creating and serializing project graph' 86.8177ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.312Z - Done responding to the client project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.312Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 86. Response time: 2.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.315Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.316Z - Done responding to the client handleContextFileData
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.316Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.329Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.329Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.330Z - Time taken for 'total for creating and serializing project graph' 0.4619000000000142ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.330Z - Done responding to the client project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.330Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.334Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.334Z - Time taken for 'preTasksExecution' 0.7790999999999713ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.334Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.334Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.347Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.348Z - Done responding to the client handleHashTasks
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.348Z - Handled HASH_TASKS. Handling time: 4. Response time: 1.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.424Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.425Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:06.425Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 11. Response time: 1.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:17:12.721Z - Closed a connection. Number of open connections: 0
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:18:56.035Z - [WATCHER]: .gitignore was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:18:56.036Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:18:56.036Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:18:56.036Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:18:56.072Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
