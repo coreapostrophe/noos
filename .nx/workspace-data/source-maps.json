@@ -1,4 +1,70 @@
 {
+  "packages/noos-configs": {
+    "root": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ]
+  },
   "packages/noos-tauri": {
     "root": [
       "packages/noos-tauri/package.json",

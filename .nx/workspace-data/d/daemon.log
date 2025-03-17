@@ -405,3 +405,382 @@
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:45:42.430Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:45:42.431Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
 [NX v20.6.1 Daemon Server] - 2025-03-17T22:45:42.473Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.377Z - Started listening on: \\.\pipe\nx\C:\Users\daver\AppData\Local\Temp\4da89aa4e56414457a2f\d.sock
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.380Z - [WATCHER]: Subscribed to changes within: D:\Projects\noos (native)
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.384Z - Established a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.384Z - Established a connection. Number of open connections: 2
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.386Z - Closed a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.389Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.420Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.420Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.420Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.508Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.509Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.510Z - Time taken for 'total for creating and serializing project graph' 120.86780000000005ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.511Z - Done responding to the client project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.512Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 121. Response time: 3.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.518Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.518Z - Done responding to the client handleContextFileData
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.518Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.538Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.538Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.539Z - Time taken for 'total for creating and serializing project graph' 0.5731999999999857ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.539Z - Done responding to the client project-graph
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.539Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.544Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.544Z - Time taken for 'preTasksExecution' 0.7912999999999784ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.544Z - Done responding to the client handleRunPreTasksExecution
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.544Z - Handled PRE_TASKS_EXECUTION. Handling time: 1. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.560Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.560Z - Done responding to the client handleHashTasks
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:48.560Z - Handled HASH_TASKS. Handling time: 6. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:49.399Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:49.399Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:52:49.399Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 12. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.195Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.198Z - [WATCHER]: packages/noos-views/src/routes/main.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.305Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.305Z - [REQUEST]: packages/noos-views/src/routes/main.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.305Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.329Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.330Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.330Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:53:59.330Z - Time taken for 'hash changed files from watcher' 0.14810000000579748ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.243Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.244Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.353Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.353Z - [REQUEST]: packages/noos-views/src/routes/home.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.353Z - [REQUEST]: packages/noos-views/src/routes/main.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.377Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.378Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.378Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:07.378Z - Time taken for 'hash changed files from watcher' 0.22239999999874271ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.567Z - [WATCHER]: packages/noos-views/src/app.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.567Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.770Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.770Z - [REQUEST]: packages/noos-views/src/app.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.770Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.799Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.800Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.800Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:10.800Z - Time taken for 'hash changed files from watcher' 0.3304000000061933ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.187Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.187Z - [WATCHER]: packages/noos-views/src/routes/home.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.597Z - [REQUEST]: packages/noos-views/src/routes/home.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.597Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.620Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.621Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.621Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:12.622Z - Time taken for 'hash changed files from watcher' 6.624299999995856ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:13.948Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:13.950Z - [WATCHER]: packages/noos-views/src/routes/home.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.767Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.767Z - [REQUEST]: packages/noos-views/src/routes/home.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.767Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.788Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.789Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.790Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:14.790Z - Time taken for 'hash changed files from watcher' 6.754799999995157ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:15.304Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:15.305Z - [WATCHER]: packages/noos-views/src/routes/home.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.919Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.919Z - [REQUEST]: packages/noos-views/src/routes/home.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.919Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.941Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.943Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.943Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:16.944Z - Time taken for 'hash changed files from watcher' 7.713399999993271ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:17.704Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:17.705Z - [WATCHER]: packages/noos-views/src/app.tsx was deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.920Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.920Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.920Z - [REQUEST]: packages/noos-views/src/app.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.941Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.942Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.942Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:20.942Z - Time taken for 'hash changed files from watcher' 0.05870000000868458ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:22.273Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:22.274Z - [WATCHER]: packages/noos-views/src/routes.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:22.725Z - [WATCHER]: packages/noos-views/src/routes.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:22.725Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.686Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.686Z - [REQUEST]: packages/noos-views/src/routes.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.686Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.711Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.712Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.712Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:28.713Z - Time taken for 'hash changed files from watcher' 0.1561000000074273ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T22:54:33.141Z - Closed a connection. Number of open connections: 0
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:13.608Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:13.610Z - [WATCHER]: packages/noos-views/src/routes.tsx was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.019Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.019Z - [REQUEST]: packages/noos-views/src/routes.tsx
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.019Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.038Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.039Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.039Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:01:20.039Z - Time taken for 'hash changed files from watcher' 1.0025000000023283ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:48.125Z - [WATCHER]: packages/noos-config was deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:48.125Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.532Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.532Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.532Z - [REQUEST]: packages/noos-config
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.550Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.551Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.551Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:02:54.551Z - Time taken for 'hash changed files from watcher' 0.06530000001657754ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:02.788Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:02.789Z - [WATCHER]: packages/noos-configs/src/eslint.config.js was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.195Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.195Z - [REQUEST]: packages/noos-configs/src/eslint.config.js
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.195Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.214Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.214Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.214Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:09.214Z - Time taken for 'hash changed files from watcher' 0.15379999997094274ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.004Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.005Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.114Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.114Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.114Z - [REQUEST]: packages/noos-configs/src/eslint.config.js
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.136Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.137Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.137Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:13.137Z - Time taken for 'hash changed files from watcher' 0.30870000005234033ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.644Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.661Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.872Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.872Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.872Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.894Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.895Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.895Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:14.896Z - Time taken for 'hash changed files from watcher' 6.477499999920838ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:19.574Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:19.575Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:19.988Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:19.988Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:19.988Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:20.011Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:20.012Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:20.012Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:20.012Z - Time taken for 'hash changed files from watcher' 5.995600000023842ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:34.292Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:34.292Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.089Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.090Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.108Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.108Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.108Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.130Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.131Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.131Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:35.131Z - Time taken for 'hash changed files from watcher' 6.009100000024773ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:36.220Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:36.221Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.838Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.838Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.838Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.863Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.864Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.864Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:37.865Z - Time taken for 'hash changed files from watcher' 2.2643999999854714ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:56.958Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:03:56.959Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.168Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.168Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.168Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.190Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.191Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:00.191Z - Time taken for 'hash changed files from watcher' 0.15760000003501773ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:03.691Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:03.692Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:06.080Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:06.081Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.097Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.097Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.097Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.127Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.128Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.128Z - Time taken for 'hash changed files from watcher' 5.029299999936484ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.477Z - [WATCHER]: packages/noos-configs/src/eslint.config.mjs was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:10.477Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.885Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.885Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.885Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.909Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.910Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.911Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:16.911Z - Time taken for 'hash changed files from watcher' 1.0174000000115484ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:22.726Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:22.727Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:26.273Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:26.274Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.133Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.133Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.133Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.157Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.158Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.158Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:29.159Z - Time taken for 'hash changed files from watcher' 5.03179999999702ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:46.051Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:46.052Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:46.896Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:46.897Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:47.386Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:47.386Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.458Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.458Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.458Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.479Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.480Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.480Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:04:52.480Z - Time taken for 'hash changed files from watcher' 5.050799999968149ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:33.915Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:33.946Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:37.341Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:37.341Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.369Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.369Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.369Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.391Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.392Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:40.392Z - Time taken for 'hash changed files from watcher' 8.197500000009313ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.311Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.313Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.420Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.420Z - [REQUEST]: packages/noos-configs/src/react.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.420Z - [REQUEST]: packages/noos-configs/src/eslint.config.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.448Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.448Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.448Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:51.449Z - Time taken for 'hash changed files from watcher' 0.23869999998714775ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:53.907Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:53.907Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.108Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.108Z - [REQUEST]: packages/noos-configs/src/eslint/react.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.108Z - [REQUEST]: packages/noos-configs/src/react.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.136Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.136Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.137Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:54.137Z - Time taken for 'hash changed files from watcher' 0.27529999997932464ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.215Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.216Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.320Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.320Z - [REQUEST]: packages/noos-configs/src/eslint/react.js
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.320Z - [REQUEST]: packages/noos-configs/src/eslint/react.mjs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.340Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.341Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.342Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:57.342Z - Time taken for 'hash changed files from watcher' 0.15170000004582107ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.258Z - [WATCHER]: packages/noos-configs/src/eslint/react.js was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.258Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.459Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.459Z - [REQUEST]: packages/noos-configs/src/eslint/react.js
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.459Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.478Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.479Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.479Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:06:59.479Z - Time taken for 'hash changed files from watcher' 1.0730000000912696ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.560Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.561Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.965Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.965Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.985Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.985Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.985Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:02.986Z - Time taken for 'hash changed files from watcher' 0.8725000000558794ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.105Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.137Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.370Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.387Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.949Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.949Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.949Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.971Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.972Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.972Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:03.972Z - Time taken for 'hash changed files from watcher' 0.8882999999914318ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:12.630Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:12.630Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:13.851Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:13.851Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.248Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.248Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.248Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.270Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.271Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.271Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.271Z - Time taken for 'hash changed files from watcher' 7.260299999965355ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.441Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:14.455Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.649Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.649Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.649Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.671Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.671Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.672Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:17.672Z - Time taken for 'hash changed files from watcher' 0.9306000000797212ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:29.265Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:29.265Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:31.437Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:31.438Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.680Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.680Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.680Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.701Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.702Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.702Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.702Z - Time taken for 'hash changed files from watcher' 0.13880000007338822ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.882Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:35.883Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:37.236Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:37.236Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:41.353Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:41.355Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.294Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.294Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.294Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.327Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.328Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.328Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.328Z - Time taken for 'hash changed files from watcher' 8.232599999988452ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.362Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.362Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.470Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:42.471Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:45.305Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:45.306Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:45.987Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:45.988Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:47.170Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:47.170Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.781Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.781Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.781Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.801Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.801Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.801Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:07:48.802Z - Time taken for 'hash changed files from watcher' 4.686199999996461ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:09.577Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:09.577Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:14.060Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:14.060Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:14.713Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:14.714Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.287Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.287Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.726Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.727Z - [WATCHER]: packages/noos-configs/package.json was modified
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.997Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.997Z - [REQUEST]: packages/noos-configs/package.json
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:15.997Z - [REQUEST]: 
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:16.017Z - [SYNC]: collect registered sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:16.018Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:16.019Z - Time taken for 'hash changed files from watcher' 5.477899999939837ms
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.251Z - [WATCHER]: Processing file changes in outputs
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.253Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.253Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.277Z - Server stopped because: "LOCK_FILES_CHANGED"

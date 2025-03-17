@@ -1,5 +1,39 @@
 {
   "nodes": {
+    "@noos/configs": {
+      "name": "@noos/configs",
+      "type": "lib",
+      "data": {
+        "root": "packages/noos-configs",
+        "name": "@noos/configs",
+        "tags": [
+          "npm:public"
+        ],
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "@noos/configs",
+            "packageExports": {
+              "./eslint/*": "./eslint/*.js"
+            },
+            "packageMain": "index.js",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    },
     "@noos/tauri": {
       "name": "@noos/tauri",
       "type": "lib",
@@ -7512,15 +7546,87 @@
     }
   },
   "dependencies": {
+    "@noos/configs": [
+      {
+        "source": "@noos/configs",
+        "target": "npm:@eslint/js",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:eslint-plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:globals",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:typescript-eslint",
+        "type": "static"
+      }
+    ],
     "@noos/tauri": [
       {
         "source": "@noos/tauri",
-        "target": "npm:typescript",
+        "target": "npm:@tauri-apps/cli",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:@types/react",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:@types/react-dom",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:@vitejs/plugin-react",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:typescript@5.6.3",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:@tauri-apps/api",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:@tauri-apps/plugin-opener",
         "type": "static"
       },
       {
         "source": "@noos/tauri",
         "target": "@noos/views",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "@noos/tauri",
+        "target": "npm:react-dom",
         "type": "static"
       }
     ],
@@ -16602,5 +16708,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1742252068704
+  "computedAt": 1742252896011
 }

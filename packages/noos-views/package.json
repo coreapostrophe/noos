@@ -14,12 +14,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
+    "@noos/configs": "file:../noos-configs",
     "@types/react": "^19.0.11",
-    "@types/react-dom": "^19.0.4",
-    "eslint": "^9.22.0",
-    "eslint-plugin-react": "^7.37.4",
-    "globals": "^16.0.0",
-    "typescript-eslint": "^8.26.1"
+    "@types/react-dom": "^19.0.4"
   }
 }
