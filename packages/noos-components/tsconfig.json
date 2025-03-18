@@ -1,4 +1,0 @@
-{
-  "extends": "@noos/configs/typescript/react",
-  "include": ["src"]
-}
