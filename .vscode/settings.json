@@ -1,0 +1,3 @@
+{
+  "rust-analyzer.linkedProjects": ["packages/noos-tauri/src-tauri"]
+}

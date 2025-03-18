@@ -3,7 +3,8 @@
   "private": "true",
   "scripts": {
     "build": "npm run build -w @noos/tauri",
-    "dev": "npm run dev -w @noos/tauri"
+    "dev": "npm run dev -w @noos/tauri",
+    "dev:tauri": "npm run tauri -w @noos/tauri -- dev"
   },
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
