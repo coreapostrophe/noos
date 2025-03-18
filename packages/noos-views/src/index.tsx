@@ -4,7 +4,7 @@ import '@fontsource/inter/500.css';
 import '@fontsource/inter/700.css';
 import { RoutedNoos } from './routes';
 import { CssBaseline, ThemeProvider } from '@mui/material';
-import NoosTheme from './shared/theme';
+import NoosTheme from './config/theme';
 
 const Noos = () => {
   return (

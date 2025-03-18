@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@noos/configs": "file:../noos-configs",
-    "@types/react": "^19.0.11",
-    "@types/react-dom": "^19.0.4"
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1"
   }
 }
