@@ -6,28 +6,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
+        "file": ".github/workflows/publish.yml",
+        "hash": "16439707834030085869"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "2824272161278374083"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16621267945800519068"
       },
       {
         "file": ".prettierrc",
         "hash": "16967331910848591359"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "8629179262319319363"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "16524075216475387240"
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
       },
       {
         "file": "lerna.json",
         "hash": "10307142885639291195"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16621267945800519068"
       },
       {
         "file": "package-lock.json",
@@ -36,6 +36,10 @@
       {
         "file": "package.json",
         "hash": "3187629046583003566"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "16524075216475387240"
       }
     ],
     "projectFileMap": {
