@@ -784,3 +784,15 @@
 [NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.253Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
 [NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.253Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
 [NX v20.6.1 Daemon Server] - 2025-03-17T23:08:19.277Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.956Z - Started listening on: \\.\pipe\nx\C:\Users\daver\AppData\Local\Temp\4da89aa4e56414457a2f\d.sock
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.959Z - [WATCHER]: Subscribed to changes within: D:\Projects\noos (native)
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.962Z - Established a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.964Z - Closed a connection. Number of open connections: 0
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.965Z - Established a connection. Number of open connections: 1
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.967Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.967Z - Done responding to the client Shutdown initiated
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.967Z - Handled FORCE_SHUTDOWN. Handling time: 1. Response time: 0.
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.968Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (sources)
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.968Z - Closed a connection. Number of open connections: 0
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.969Z - [WATCHER]: Stopping the watcher for D:\Projects\noos (outputs)
+[NX v20.6.1 Daemon Server] - 2025-03-17T23:50:43.970Z - Server stopped because: "Request to shutdown"

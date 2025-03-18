@@ -13,10 +13,7 @@
           "targetGroups": {},
           "js": {
             "packageName": "@noos/configs",
-            "packageExports": {
-              "./eslint/*": "./eslint/*.js"
-            },
-            "packageMain": "index.js",
+            "packageMain": "index.ts",
             "isInPackageManagerWorkspaces": true
           }
         },
@@ -1917,6 +1914,15 @@
         "version": "0.6.0",
         "packageName": "@types/cookie",
         "hash": "sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA=="
+      }
+    },
+    "npm:@types/eslint": {
+      "type": "npm",
+      "name": "npm:@types/eslint",
+      "data": {
+        "version": "9.6.1",
+        "packageName": "@types/eslint",
+        "hash": "sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag=="
       }
     },
     "npm:@types/estree": {
@@ -7549,12 +7555,22 @@
     "@noos/configs": [
       {
         "source": "@noos/configs",
-        "target": "npm:@eslint/js",
+        "target": "npm:eslint",
         "type": "static"
       },
       {
         "source": "@noos/configs",
-        "target": "npm:eslint",
+        "target": "npm:@types/eslint",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:@typescript-eslint/utils",
+        "type": "static"
+      },
+      {
+        "source": "@noos/configs",
+        "target": "npm:@eslint/js",
         "type": "static"
       },
       {
@@ -7643,7 +7659,7 @@
       },
       {
         "source": "@noos/views",
-        "target": "npm:@eslint/js",
+        "target": "@noos/configs",
         "type": "static"
       },
       {
@@ -7654,26 +7670,6 @@
       {
         "source": "@noos/views",
         "target": "npm:@types/react-dom@19.0.4",
-        "type": "static"
-      },
-      {
-        "source": "@noos/views",
-        "target": "npm:eslint",
-        "type": "static"
-      },
-      {
-        "source": "@noos/views",
-        "target": "npm:eslint-plugin-react",
-        "type": "static"
-      },
-      {
-        "source": "@noos/views",
-        "target": "npm:globals",
-        "type": "static"
-      },
-      {
-        "source": "@noos/views",
-        "target": "npm:typescript-eslint",
         "type": "static"
       },
       {
@@ -9470,6 +9466,18 @@
       {
         "source": "npm:@types/babel__traverse",
         "target": "npm:@babel/types",
+        "type": "static"
+      }
+    ],
+    "npm:@types/eslint": [
+      {
+        "source": "npm:@types/eslint",
+        "target": "npm:@types/estree",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/eslint",
+        "target": "npm:@types/json-schema",
         "type": "static"
       }
     ],
@@ -16708,5 +16716,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1742252896011
+  "computedAt": 1742255444636
 }
