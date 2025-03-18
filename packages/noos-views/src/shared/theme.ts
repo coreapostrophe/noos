@@ -1,8 +1,9 @@
 import { createTheme } from '@mui/material';
 
 const NoosTheme = createTheme({
-  palette: {
-    mode: 'dark',
+  colorSchemes: {
+    dark: true,
+    light: true,
   },
   typography: { allVariants: { fontFamily: 'Inter' } },
 });
