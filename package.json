@@ -2,8 +2,8 @@
   "name": "@noos/workspace",
   "private": "true",
   "scripts": {
-    "build": "lerna run build",
-    "dev": "lerna run dev --scope=@noos/tauri"
+    "build": "npm run build -w @noos/tauri",
+    "dev": "npm run dev -w @noos/tauri"
   },
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
