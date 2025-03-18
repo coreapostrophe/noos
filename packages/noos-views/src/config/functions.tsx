@@ -4,8 +4,12 @@ export interface FunctionsMap {}
 
 const FunctionsContext = createContext<FunctionsMap>({});
 
+export interface FunctionsProviderProps {
+  value: FunctionsMap;
+}
+
 export const FunctionsProvider: FC<
-  PropsWithChildren<{ value: FunctionsMap }>
+  PropsWithChildren<FunctionsProviderProps>
 > = ({ value, children }) => (
   <FunctionsContext.Provider value={value}>
     {children}
