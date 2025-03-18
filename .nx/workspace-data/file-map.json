@@ -4,73 +4,41 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16967331910848591359"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "8629179262319319363"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "16524075216475387240"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10307142885639291195"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16621267945800519068"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17921039863189096833"
+      },
+      {
+        "file": "package.json",
+        "hash": "3187629046583003566"
+      }
+    ],
     "projectFileMap": {
-      "@noos/configs": [
-        {
-          "file": "packages/noos-configs/index.ts",
-          "hash": "8844728525607116639"
-        },
-        {
-          "file": "packages/noos-configs/package.json",
-          "hash": "18291576764296352909",
-          "deps": [
-            "npm:eslint",
-            "npm:@types/eslint",
-            "npm:@typescript-eslint/utils",
-            "npm:@eslint/js",
-            "npm:eslint-plugin-react",
-            "npm:globals",
-            "npm:typescript-eslint"
-          ]
-        }
-      ],
-      "@noos/views": [
-        {
-          "file": "packages/noos-views/.gitignore",
-          "hash": "8587836968507943632"
-        },
-        {
-          "file": "packages/noos-views/eslint.config.mjs",
-          "hash": "2037805002342407399"
-        },
-        {
-          "file": "packages/noos-views/package-lock.json",
-          "hash": "17390705061305821072"
-        },
-        {
-          "file": "packages/noos-views/package.json",
-          "hash": "3525427877388589612",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "@noos/configs",
-            "npm:@types/react@19.0.11",
-            "npm:@types/react-dom@19.0.4",
-            "npm:jotai",
-            "npm:react-router"
-          ]
-        },
-        {
-          "file": "packages/noos-views/src/index.tsx",
-          "hash": "70809212058294524"
-        },
-        {
-          "file": "packages/noos-views/src/routes.tsx",
-          "hash": "10312592565719690568"
-        },
-        {
-          "file": "packages/noos-views/src/routes/home.tsx",
-          "hash": "11006345287776092213"
-        },
-        {
-          "file": "packages/noos-views/tsconfig.json",
-          "hash": "14667919990655219495"
-        },
-        {
-          "file": "packages/noos-views/tsconfig.node.json",
-          "hash": "6447909583214678802"
-        }
-      ],
       "@noos/tauri": [
         {
           "file": "packages/noos-tauri/.gitignore",
@@ -85,6 +53,10 @@
           "hash": "16539139371914066124"
         },
         {
+          "file": "packages/noos-tauri/eslint.config.mjs",
+          "hash": "10705170676191282588"
+        },
+        {
           "file": "packages/noos-tauri/index.html",
           "hash": "14235883784253937205"
         },
@@ -94,7 +66,7 @@
         },
         {
           "file": "packages/noos-tauri/package.json",
-          "hash": "2539672646935715835",
+          "hash": "17784150167120462258",
           "deps": [
             "npm:@tauri-apps/cli",
             "npm:@types/react",
@@ -102,6 +74,7 @@
             "npm:@vitejs/plugin-react",
             "npm:typescript@5.6.3",
             "npm:vite",
+            "@noos/configs",
             "npm:@tauri-apps/api",
             "npm:@tauri-apps/plugin-opener",
             "@noos/views",
@@ -122,8 +95,12 @@
           "hash": "4015051150815717868"
         },
         {
+          "file": "packages/noos-tauri/src-tauri/Cargo.lock",
+          "hash": "7198636223872733700"
+        },
+        {
           "file": "packages/noos-tauri/src-tauri/Cargo.toml",
-          "hash": "8814399004574894350"
+          "hash": "6259192353101555673"
         },
         {
           "file": "packages/noos-tauri/src-tauri/build.rs",
@@ -211,11 +188,11 @@
         },
         {
           "file": "packages/noos-tauri/src/App.css",
-          "hash": "3244421341483603138"
+          "hash": "16766488744681459311"
         },
         {
           "file": "packages/noos-tauri/src/App.tsx",
-          "hash": "8647980961760783631"
+          "hash": "7987672234994111749"
         },
         {
           "file": "packages/noos-tauri/src/assets/react.svg",
@@ -241,33 +218,94 @@
           "file": "packages/noos-tauri/vite.config.ts",
           "hash": "4582961665038193720"
         }
+      ],
+      "@noos/views": [
+        {
+          "file": "packages/noos-views/.gitignore",
+          "hash": "8587836968507943632"
+        },
+        {
+          "file": "packages/noos-views/eslint.config.mjs",
+          "hash": "10705170676191282588"
+        },
+        {
+          "file": "packages/noos-views/package-lock.json",
+          "hash": "17390705061305821072"
+        },
+        {
+          "file": "packages/noos-views/package.json",
+          "hash": "10176860768293972521",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "@noos/configs",
+            "npm:@types/react@19.0.11",
+            "npm:@types/react-dom@19.0.4",
+            "npm:@fontsource/inter",
+            "npm:@mui/icons-material",
+            "npm:jotai",
+            "npm:react-router",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "packages/noos-views/src/index.tsx",
+          "hash": "2094709123224132821"
+        },
+        {
+          "file": "packages/noos-views/src/routes.tsx",
+          "hash": "10312592565719690568"
+        },
+        {
+          "file": "packages/noos-views/src/routes/home.tsx",
+          "hash": "2910719997788784436"
+        },
+        {
+          "file": "packages/noos-views/src/shared/theme.ts",
+          "hash": "4996430144695143001"
+        },
+        {
+          "file": "packages/noos-views/tsconfig.json",
+          "hash": "14998067287983486699"
+        }
+      ],
+      "@noos/configs": [
+        {
+          "file": "packages/noos-configs/eslint/react.js",
+          "hash": "12451748845145930099"
+        },
+        {
+          "file": "packages/noos-configs/index.d.ts",
+          "hash": "14949264194688383695"
+        },
+        {
+          "file": "packages/noos-configs/index.ts",
+          "hash": "14465282970796784289"
+        },
+        {
+          "file": "packages/noos-configs/package.json",
+          "hash": "17973237600627045990",
+          "deps": [
+            "npm:eslint",
+            "npm:typescript@5.6.3",
+            "npm:@types/eslint",
+            "npm:@eslint/js",
+            "npm:eslint-plugin-react",
+            "npm:globals",
+            "npm:typescript-eslint"
+          ]
+        },
+        {
+          "file": "packages/noos-configs/typescript/node.json",
+          "hash": "1529512080791275596"
+        },
+        {
+          "file": "packages/noos-configs/typescript/react.json",
+          "hash": "15410733301913009188"
+        }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".gitignore",
-        "hash": "16722851342459420272"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16967331910848591359"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10307142885639291195"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16621267945800519068"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "14799609321391602392"
-      },
-      {
-        "file": "package.json",
-        "hash": "10116039997502018845"
-      }
-    ]
+    }
   }
 }

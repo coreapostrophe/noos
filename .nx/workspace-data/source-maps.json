@@ -20,11 +20,19 @@
       "packages/noos-configs/package.json",
       "nx/core/package-json"
     ],
+    "metadata.description": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "packages/noos-configs/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
+      "packages/noos-configs/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
       "packages/noos-configs/package.json",
       "nx/core/package-json"
     ],
@@ -98,11 +106,23 @@
       "packages/noos-tauri/package.json",
       "nx/core/package-json"
     ],
+    "metadata.description": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "packages/noos-tauri/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
+      "packages/noos-tauri/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
       "packages/noos-tauri/package.json",
       "nx/core/package-json"
     ],
@@ -260,11 +280,19 @@
       "packages/noos-views/package.json",
       "nx/core/package-json"
     ],
+    "metadata.description": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.js": [
       "packages/noos-views/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
+      "packages/noos-views/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageExports": [
       "packages/noos-views/package.json",
       "nx/core/package-json"
     ],

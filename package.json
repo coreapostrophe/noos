@@ -2,7 +2,7 @@
   "name": "@noos/workspace",
   "private": "true",
   "scripts": {
-    "build": "npm run build -w @noos/tauri",
+    "build": "npm run tauri -w @noos/tauri -- build",
     "dev": "npm run dev -w @noos/tauri",
     "dev:tauri": "npm run tauri -w @noos/tauri -- dev"
   },
