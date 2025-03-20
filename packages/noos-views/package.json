@@ -6,11 +6,7 @@
   "module": "src/index.tsx",
   "license": "ISC",
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.0",
     "@fontsource/inter": "^5.2.5",
-    "@mui/icons-material": "^6.4.8",
-    "@mui/material": "^6.4.8",
     "immer": "^10.1.1",
     "jotai": "^2.12.2",
     "jotai-immer": "^0.4.1",
