@@ -3,23 +3,27 @@ import '@fontsource/inter/400.css';
 import '@fontsource/inter/500.css';
 import '@fontsource/inter/700.css';
 import { RoutedNoos } from './routes';
-import { CssBaseline, ThemeProvider } from '@mui/material';
-import NoosTheme from './config/theme';
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 import { FunctionsMap, FunctionsProvider } from './config/functions';
+import { useAtom } from 'jotai';
+import { Save, saveAtom } from './models/save';
 
 export interface NoosProps {
   functions: FunctionsMap;
+  save: Save;
 }
 
-const Noos: FC<NoosProps> = ({ functions }) => {
+const Noos: FC<NoosProps> = ({ functions, save }) => {
+  const [, setAtom] = useAtom(saveAtom);
+
+  useEffect(() => {
+    setAtom(save);
+  }, [save]);
+
   return (
-    <ThemeProvider theme={NoosTheme}>
-      <FunctionsProvider value={functions}>
-        <CssBaseline />
-        <RoutedNoos />
-      </FunctionsProvider>
-    </ThemeProvider>
+    <FunctionsProvider value={functions}>
+      <RoutedNoos />
+    </FunctionsProvider>
   );
 };
 

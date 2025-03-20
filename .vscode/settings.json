@@ -1,5 +1,6 @@
 {
   "rust-analyzer.linkedProjects": [
     "packages\\noos-tauri\\src-tauri\\Cargo.toml"
-  ]
+  ],
+  "editor.tabSize": 2
 }
