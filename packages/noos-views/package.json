@@ -2,9 +2,21 @@
   "name": "@noos/views",
   "version": "1.0.0",
   "private": "true",
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "types": "dist/bundle.d.ts",
   "license": "ISC",
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    "./styles": "./dist/bundle.css",
+    ".": "./dist/bundle.js"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
   "dependencies": {
     "@fontsource/inter": "^5.2.5",
     "immer": "^10.1.1",

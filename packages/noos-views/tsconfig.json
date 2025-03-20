@@ -1,7 +1,4 @@
 {
   "extends": "@noos/configs/typescript/react",
-  "include": ["src"],
-  "compilerOptions": {
-    "jsxImportSource": "@emotion/react"
-  }
+  "include": ["src"]
 }
