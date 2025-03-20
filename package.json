@@ -2,9 +2,9 @@
   "name": "@noos/workspace",
   "private": "true",
   "scripts": {
-    "build": "npm run tauri -w @noos/tauri -- build",
-    "dev": "npm run dev -w @noos/tauri",
-    "dev:tauri": "npm run tauri -w @noos/tauri -- dev"
+    "build": "turbo run build",
+    "dev": "turbo run @noos/tauri#dev @noos/views#build:watch",
+    "dev:tauri": "turbo run @noos/tauri#dev:tauri @noos/views#build:watch"
   },
   "author": "Daveren John Cordero <daverencordero@gmail.com>",
   "license": "ISC",
@@ -12,10 +12,11 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^8.2.1",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "turbo": "^2.4.4"
   },
   "volta": {
     "node": "22.14.0"
-  }
+  },
+  "packageManager": "npm@10.9.2"
 }
