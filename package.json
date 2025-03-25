@@ -1,5 +1,5 @@
 {
-  "name": "noos",
+  "name": "@noos/workspace",
   "private": true,
   "scripts": {
     "build": "turbo run build",
