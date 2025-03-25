@@ -1,22 +1,20 @@
 {
-  "name": "@noos/workspace",
-  "private": "true",
+  "name": "noos",
+  "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run @noos/tauri#dev @noos/views#build:watch",
-    "dev:tauri": "turbo run @noos/tauri#dev:tauri @noos/views#build:watch"
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
   },
-  "author": "Daveren John Cordero <daverencordero@gmail.com>",
-  "license": "ISC",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "prettier": "^3.5.3",
-    "turbo": "^2.4.4"
+    "turbo": "^2.4.4",
+    "typescript": "5.8.2"
   },
-  "volta": {
-    "node": "22.14.0"
-  },
-  "packageManager": "npm@10.9.2"
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18"
+  }
 }
