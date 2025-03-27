@@ -77,7 +77,7 @@ jobs:
           cargo clippy -- -D warnings
 
   rust-coverage:
-    needs: rust-clippy
+    needs: rust-build
     name: Rust Code coverage
     runs-on: ubuntu-latest
     steps:

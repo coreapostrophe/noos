@@ -7,11 +7,13 @@ on:
       - "**/Cargo.toml"
       - "**/Cargo.lock"
 jobs:
-  security_audit:
+  rust_security_audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: taiki-e/install-action@cargo-deny
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install cargo-deny
+        uses: taiki-e/install-action@cargo-deny
       - name: Scan for vulnerabilities
         run: |
           cd apps/api
