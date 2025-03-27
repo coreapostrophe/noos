@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cargo run",
+    "install:bacon": "cargo install --locked bacon",
+    "check": "cargo check",
+    "prepare": "npm run install:bacon && npm run check",
+    "dev": "bacon",
     "add": "cargo add"
   },
   "license": "ISC"

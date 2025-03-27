@@ -15,5 +15,8 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
   "rust-analyzer.linkedProjects": ["apps/api/Cargo.toml"]
 }
