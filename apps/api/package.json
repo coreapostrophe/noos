@@ -5,6 +5,7 @@
   "scripts": {
     "install:bacon": "cargo install --locked bacon",
     "check": "cargo check",
+    "test": "cargo test",
     "prepare": "npm run install:bacon && npm run check",
     "dev": "bacon",
     "add": "cargo add"

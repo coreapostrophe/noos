@@ -1,12 +1,10 @@
-use app::App;
-
-mod app;
+use serverlib::{Server, error::ServerError};
 
 #[tokio::main]
-async fn main() -> Result<(), std::io::Error> {
+async fn main() -> Result<(), ServerError> {
     tracing_subscriber::fmt::init();
 
-    App::init().await;
+    Server::init(("0.0.0.0", 8000)).await?;
 
     Ok(())
 }
