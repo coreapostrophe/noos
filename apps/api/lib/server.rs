@@ -21,7 +21,7 @@ impl<'a> From<(&'a str, u16)> for BindOption<'a> {
     }
 }
 
-impl<'a> From<TcpListener> for BindOption<'a> {
+impl From<TcpListener> for BindOption<'_> {
     fn from(value: TcpListener) -> Self {
         Self::Listener(value)
     }
@@ -41,7 +41,7 @@ impl Server {
             }
         };
 
-        let _ = axum::serve(listener, router).await?;
+        axum::serve(listener, router).await?;
 
         Ok(())
     }
